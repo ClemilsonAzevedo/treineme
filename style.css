@@ -84,11 +84,13 @@ button {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-    padding: 14px 32px 15px;
+  padding: 14px 32px 15px;
+  gap: 10px;
 }
 
-button img{
-  margin-right: 10px;
+button:hover{
+  cursor: pointer;
+    background-color: #4ea788;
 }
 
 footer {
