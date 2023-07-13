@@ -7,11 +7,13 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.4rem;
   background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 0%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
 }
 
 .page {
   width: 1000px;
-  margin: 65px auto 0;
+  margin: 0 auto;
+  padding-top:  65px;
 }
 
 #hero{
